@@ -25,3 +25,7 @@ This is the Main route for the application and it handles the searching and filt
 @'/item
 
 This route showed up single item whenever user clicks on the item in the Shopping Route.Since this application uses the router method in this section we pass the relevant id of the particular item along with route.
+
+### Third Party Libraries
+> Fontawesome React
+> React Router Dom
