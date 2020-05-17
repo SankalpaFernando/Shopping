@@ -1,0 +1,23 @@
+.item-panel{
+    width: 70%;
+        margin-left: 25%;
+    
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-row-gap: 1em;
+        grid-column-gap: 1em;
+}
+*{
+    box-sizing: border-box;
+}
+@media(max-width:780px){
+    .item-panel{
+     position: absolute;
+     top: 160vh;
+      width: 80%;
+      margin:1em 5%;
+      grid-template-columns: 1fr ;
+    }
+
+}

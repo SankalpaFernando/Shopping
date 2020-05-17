@@ -1,0 +1,46 @@
+.header {
+  width: 100%;
+  height: fit-content;
+  background-color:#eee;
+  padding:.5em
+}
+*{
+    box-sizing: border-box;
+}
+.header > h1 {
+  text-align: center;
+}
+.header > .bar {
+    width: 70%;
+    display:flex;
+  margin: 2.2em auto;
+}
+.header > .bar> .search-input{
+    width: 80%;
+    padding: 1em;
+}
+.header>.bar >  .cart{
+    padding:1em;
+    border: 0;
+    background-color: rgb(247, 102, 114);
+    color: white;
+    margin-left: 1em;
+  }
+
+@media(max-width:780px){
+    .header{
+        height:fit-content;
+    }
+    .header > .bar {
+        width: 90%;
+        flex-direction:column;
+    }
+    .header > .bar> .search-input{
+        width: 100%;
+       
+    }
+    .header>.bar >  .cart{
+        width: 20%;
+        margin : .5em auto;
+    }
+}

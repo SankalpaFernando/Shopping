@@ -1,0 +1,40 @@
+button,.price,.color{
+    border: 0;
+    background-color:transparent;
+    text-align: left;
+    margin:.5em 0 0 1em
+}
+.categories,.brands,.sizes{
+    display:flex;
+    flex-direction: column;
+}
+*{
+    box-sizing: border-box;
+}
+.filter-panel{
+    width: 20%;
+    margin:1em;
+position: absolute;
+    height: fit-content;
+
+    padding:1.8em;
+    border : 1px solid #000;
+}
+.range{
+    width: 100%;
+}
+.change{
+    background-color:transparent;
+    padding: 0.5em;
+    margin:.2em .8em;
+}
+
+
+
+@media(max-width:780px){
+    .filter-panel{
+      width: 90%;
+      margin:1em 5%;
+    }
+
+}

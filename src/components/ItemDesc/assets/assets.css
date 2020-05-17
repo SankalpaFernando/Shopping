@@ -1,0 +1,16 @@
+.btn-qty{
+    display: flex;
+    margin-top:2em;
+    background-color:rgb(102, 102, 102);
+    width:fit-content;
+    border-radius:1.8em;
+}
+.qty{
+    font-size: 1.1em;
+    margin:.6em;
+    text-align: center;
+}
+.operator{
+    font-size: 1.1em;
+    margin:.6em;
+}

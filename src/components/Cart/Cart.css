@@ -1,0 +1,21 @@
+.cart{
+    display:grid;
+    grid-template-columns: 3fr 1fr;
+}
+.price-details{
+    
+    margin-top: 2em;
+    border: 1px solid #000;
+    padding:1em;
+    height: fit-content;
+}
+@media(max-width:780px){
+ .cart{
+     display:flex;
+     flex-direction: column;
+ }
+ .price-details{
+     width: 80%;
+
+ }
+}
